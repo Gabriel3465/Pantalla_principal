@@ -124,6 +124,17 @@ fun GreenLoginUI() {
 
                 Spacer(modifier = Modifier.height(15.dp))
 
+                Row(
+                    horizontalArrangement = Arrangement.SpaceEvenly,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(40.dp)
+                            .clip(RoundedCornerShape(20.dp))
+                            .background(Color(0xFF81C784))
+                    )
+                }
 
             }
         }
