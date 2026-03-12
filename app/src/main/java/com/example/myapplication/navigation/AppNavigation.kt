@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.myapplication.screens.RegistrationScreen
 import com.example.myapplication.screens.SingUpScreen
 import com.example.myapplication.screens.WelcomeScreen
 
@@ -16,6 +17,10 @@ fun AppNavigation(){
         navController = navController,
         startDestination = "welcome"
     ){
+
+        composable("re"){
+            RegistrationScreen(navController)
+        }
 
         composable("welcome"){
             WelcomeScreen(navController)

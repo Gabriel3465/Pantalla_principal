@@ -14,7 +14,7 @@ fun WelcomeScreen(navController: NavController){
 
         Button(
             onClick = {
-                navController.navigate("signup")
+                navController.navigate("re")
             }
         ) {
             Text("crear cuenta")
