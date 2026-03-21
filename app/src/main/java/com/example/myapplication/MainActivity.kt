@@ -16,7 +16,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.myapplication.navigation.AppNavigation
+import com.example.myapplication.screens.ListItemExamplePreview
 import com.example.myapplication.screens.RegistrationScreen
+import com.example.myapplication.screens.ListItemExample
+import com.example.myapplication.screens.ListItemExample
+
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
